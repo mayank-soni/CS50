@@ -1,0 +1,26 @@
+sort1 uses: Bubble Sort
+
+How do you know?:
+reversed: 0.089s/0.258s/5.686s
+random: 0.092s/0.294s/7.386s
+sorted: 0.044s/0.081s/0.323s
+
+Bubble sort is slowest when order is reversed, and fastest when already sorted.
+
+sort2 uses: Merge Sort
+
+How do you know?:
+reversed: 0.025s/0.093s/0.320s
+random: 0.026s/0.060s/0.477s
+sorted: 0.044s/0.064s/0.318s
+
+Merge sort is overall fastest, especially for large datasets. But always takes same time regardless of initial order.
+
+sort3 uses:Selection Sort
+
+How do you know?:
+reversed: 0.047s/0.161s/3.125s
+random: 0.055s/0.186s/3.171s
+sorted: 0.141s/0.176s/3.105s
+
+Selection sort always takes same time regardless of initial order.
